@@ -1,0 +1,57 @@
+ <!DOCTYPE html>
+<html>
+<!-- Like what you see? https://github.com/thecoinflipper/thecoinflipper.github.io -->
+<head>
+<title>The Coin Flipper</title>
+<style>
+body {
+  text-align: center;
+  margin: 1em 0 0 0;
+  vertical-align: middle;
+  font-family: 'Lucida Console', 'Courier New';
+  font-size: 26pt;
+  font-style: normal;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0;
+  word-spacing: 0;
+  line-height: 1.2;
+}
+#content {
+  width: 760px;
+  text-align: left;
+  margin: 1em auto;
+}
+.raw {
+  font-size: 50%;
+  color: #ddd;
+}
+.raw a {
+  text-decoration: none;
+  color: inherit;
+}
+.raw a:hover {
+  text-decoration: underline;
+}
+        </style>
+</head>
+<body>
+<center>
+<div id="content">
+<script>
+var flip = Math.random();
+
+if (flip > 0.5) {
+    document.write("Heads");
+} else {
+    document.write("Tails");
+}
+</script>
+<p class="raw">
+[<a href="raw.html" target="_blank">text-only</a>]
+</p>
+        </div>
+</center>
+</body>
+</html>

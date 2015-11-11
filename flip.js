@@ -1,7 +1,6 @@
 var flip = Math.random();
-
 if (flip > 0.5) {
-    document.write("Heads");
+    document.getElementById("content").innerHTML = "Heads";
 } else {
-    document.write("Tails");
+    document.getElementById("content").innerHTML = "Tails";
 }

@@ -47,19 +47,7 @@ cursor: pointer;
 </div>
     <br>
 <button id='flipper' class="txtButton" title="Click here!">Again!</button>
-<script type='text/javascript'>
-var out = document.getElementById("content");
-flipper.addEventListener("click", function() {
-    out.innerHTML = "&nbsp;";
-    var flip = Math.random();
-    setTimeout(function() { 
-        if (flip > .5) {
-            out.innerHTML = "Heads";
-    	} else {
-            out.innerHTML = "Tails";
-    	}
-    }, 30);
-});    
+<script src="flip.js" type='text/javascript'>
 </script>
 <p class="raw">
     <a href="raw.html" target="_blank">[simple version]</a>

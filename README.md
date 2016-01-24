@@ -8,6 +8,6 @@ This uses JavaScript's `Math.random()`. The output is fed to an if/else statemen
 
 # License
 
-Copyright (c) 2015 Krik Mohammed
+Copyright (c) 2016 Krik Mohammed
 
 This project and its contents are open source under the MIT license.
